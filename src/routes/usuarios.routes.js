@@ -1,6 +1,6 @@
 import { Router } from "express";
 
-const candidatosRoutes = Router();
+const usuariosRoutes = Router();
 
 let usuarios = []
 
@@ -12,4 +12,4 @@ usuariosRoutes.get("/", (req, res) => {
         usuarios,
     });
 });
-export default candidatosRoutes;
+export default usuariosRoutes;
